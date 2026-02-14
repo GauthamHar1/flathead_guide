@@ -1,0 +1,40 @@
+:root {
+  --font-family: 'Rye';
+}
+body{
+    display:block;
+    font-weight:bold;
+    text-align:center;
+    background-image:url("https://t3.ftcdn.net/jpg/01/93/64/78/360_F_193647861_HdI1AN1Jp6hmbjb8r4mZJIgEMUNzbsQi.jpg")
+}
+h1{
+    font-family: var(--font-family);
+}
+p{
+    color:black;
+    background-color:white;
+    width:50rem;
+    padding-left:20rem;
+    font-family: var(--font-family);
+}
+table{
+    width:15rem;
+    padding-left:40rem;
+    padding-top:2rem;
+}
+th {
+    border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+  
+}
+td{
+    border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+tbody tr:nth-child(even) {
+  background-color: #2192ae;
+}
+
+
